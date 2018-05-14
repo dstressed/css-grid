@@ -1,0 +1,48 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Overpass";
+    font-weight: 300;
+    font-style: normal;
+    src: url("fonts/overpass_light.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Overpass";
+    font-weight: 600;
+    font-style: normal;
+    src: url("fonts/overpass_semibold.woff2") format('woff2');
+}
+
+/* Reset User Agent Styles */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body */
+
+.header, .main, .aside, .footer {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    padding: 6px 0 0 6px;
+    color: #424242;
+}
+
+.header {
+    background: #80DEEA;
+}
+
+.main {
+    background: #FFE082;
+}
+
+.aside {
+    background: #A5D6A7;
+}
+
+.footer {
+    background: #ef9a9a;
+}
